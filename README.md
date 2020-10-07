@@ -63,7 +63,8 @@ The lack of applying the characterisation of the ADC in common Ardiuino librarie
 
 # LogFunction
 
-This is a Transform that applies the basic  m * log(input) + c 
+This is a Transform that applies the basic  m * log(input) + c function to the input and passes it as ouput.
+It is useful for representing NTC thermistor curves, or anything that has a logarithmic characteristic.
 
 # HysteresisTranform
 
