@@ -65,4 +65,12 @@ The lack of applying the characterisation of the ADC in common Ardiuino librarie
 
 This is a Transform that applies the basic  m * log(input) + c 
 
+# HysteresisTranform
+
+A Transform that translates a integer value into a boolean value. 
+
+The boolean output is not changed while the input remains within the range specified by minValue and MaxValue.
+
+If input value is outside of the hysteresis range to the minValue side, the output will be the value of belowRange.
+If input value is outside of the hysteresis range to the maxValue side, the output will be the value of !belowRange.
 
