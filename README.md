@@ -1,3 +1,6 @@
+# This contains code snippets that may or may not be included in the SEnESP project
+
+
 # ESP32AnalogInput
 This is a derived numeric sensor for the SignalK/SensESP project 
 
@@ -58,5 +61,8 @@ also stored in eFuse memory. A calibration call must be made prior to calling an
 
 The lack of applying the characterisation of the ADC in common Ardiuino libraries has greatly contributed to the bad rap of the ESP32 for analog input.
 
+# LogFunction
+
+This is a Transform that applies the basic  m * log(input) + c 
 
 
