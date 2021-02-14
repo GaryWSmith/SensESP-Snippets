@@ -1,4 +1,4 @@
-# This contains code snippets that may or may not be included in the SEnESP project
+# This contains code snippets that may or may not be included in the SenESP project
 
 
 # ESP32AnalogInput
